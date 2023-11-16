@@ -34,6 +34,8 @@ jxRequirements:
     registry: ghcr.io
   environments:
   - key: dev
+    owner: gaocheng001
+    repository: wodejx3k3svault
   - key: staging
   ingress:
     domain: change.me
@@ -44,6 +46,8 @@ jxRequirements:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: wudi1115jenkinx2
   repository: bucketrepo
   secretStorage: vault
   vault: {}
